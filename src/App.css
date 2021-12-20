@@ -1,0 +1,79 @@
+.plan
+{
+  text-align: center;
+  opacity:0.4;
+}
+.price
+{
+  font-size: 50px;
+  font-weight: 500;
+}
+.month
+{
+  font-size: 15px;
+  font-weight: 500;
+}
+  .pricemonth
+  {
+    text-align: center;
+  }
+.tablecontent
+{
+  display: flex;
+  flex-wrap: wrap;
+    justify-content: center;
+    gap:2rem;
+    background-color: blue;
+    margin:4rem;  
+    padding: 20px;  
+}
+.tables:hover
+{
+transform:translateY(-10px);
+}
+
+.tables
+{
+  background-color: white;
+  border-radius: 2rem;
+  padding: 20px;
+}
+
+ul>li
+{
+  margin-bottom: 25px;
+}
+.list
+{
+margin:20px;
+text-align: left;
+list-style: none;
+}
+.list li:nth-child(n+5)
+{
+  opacity: 0.4;
+}
+.list li:nth-child(-n+4)::marker
+{
+  content: "✔   ";
+}
+.list li:nth-child(n+5)::marker
+{
+  content: "✖   ";
+}
+.btn
+{
+  color: white;
+  background-color: blue;
+  font-size: 1rem;
+  opacity: 0.8;
+  border: none;
+  padding: 15px;
+  border-radius: 2rem;
+  width: 100%;
+  font-weight: 600;
+}
+.btn:hover
+{
+  opacity: 1;
+}
